@@ -1,0 +1,46 @@
+
+body {
+	font-family: "Courier New", Courier, monospace;
+	letter-spacing: -1px;
+}
+
+img.desaturate {
+	filter: grayscale(100%);
+}
+
+img:hover {
+	filter: grayscale(0%);
+}
+
+ul {
+	list-style-type: square;
+}
+
+ul.nobullets {
+	list-style-type: none;
+}
+
+li{
+    margin-top: 15px;
+}
+
+nav{
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+	margin-left: 50px;
+	word-wrap: break-word;
+}
+
+p.tall {
+	line-height: 200%;
+}
+
+#block{
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+	margin-left: 50px;
+	word-wrap: break-word;
+
+}
